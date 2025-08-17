@@ -94,6 +94,10 @@ See `data/examples/example_raw_pitches.csv` included in this repo.
 - Add/modify paths at the top of each script to match your local folders.
 
 ---
+## Example
+- I've attached an exmaple csv of data the jitter code will be run on
+- the csv the jitter code should generate when run
+- and an example of a game csv when the saved model for both pitchers is available 
 
 ## License
 
