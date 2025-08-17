@@ -52,7 +52,7 @@ for csv_file in INPUT_DIR.glob("*.csv"):
 
     out_path = OUTPUT_DIR / f"{csv_file.stem}_synthetic.csv"
     pd.DataFrame(synth_rows).to_csv(out_path, index=False)
-    print(f"✅  saved → {out_path}")
+    print(f"✔️ saved → {out_path}")
 
-print("🎉  All synthetic files generated.")
+print("✅ All synthetic files generated.")
 
