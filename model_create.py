@@ -100,12 +100,12 @@ for csv_path in sorted(SYN_DIR.glob("*.csv")):
         safe_stem = csv_path.stem.replace("_synthetic", "").replace(" ", "_")
         out_path = MODEL_DIR / f"{safe_stem}.joblib"
         joblib.dump((model, le, FEATURES), out_path)
-        print(f"✅ saved → {out_path}")
+        print(f"✔️ saved → {out_path}")
         trained += 1
 
     except Exception as e:
-        print(f"   ❌ failed on {csv_path.name}: {e}")
+        print(f"❌ failed on {csv_path.name}: {e}")
         failed += 1
 
-print(f"\n🎉 Done. Trained: {trained}  |  Skipped: {skipped}  |  Failed: {failed}")
+print(f"\n✅ Done. Trained: {trained}  |  Skipped: {skipped}  |  Failed: {failed}")
 
