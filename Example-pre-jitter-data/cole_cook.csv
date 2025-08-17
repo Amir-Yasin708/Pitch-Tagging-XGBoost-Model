@@ -1,0 +1,7 @@
+predicted_cluster,RelSpeed,SpinRate,InducedVertBreak,HorzBreak,count,RetagPitchType
+0,86.431,2404.744,17.312,-7.02,122,Fastball
+1,79.627,1526.086,7.544,-10.07,69,Changeup
+2,76.805,2494.533,-8.319,6.106,71,Curveball
+3,85.656,2210.67,11.189,-12.964,22,Sinker
+4,82.557,2520.418,8.011,3.431,19,Cutter
+5,79.309,2607.804,-2.136,10.943,27,Slider
